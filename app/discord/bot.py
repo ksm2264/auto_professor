@@ -4,6 +4,9 @@ import os
 from discord.enums import ChannelType
 import asyncio
 
+from app.summarize_script.summarize import csv_data_from_pdf_bytes
+
+
 load_dotenv()
 
 bot = discord.Bot()
@@ -35,6 +38,20 @@ class ProfessorCog(discord.Cog):
         self.thread = await ctx.channel.create_thread(name="new interview", type=ChannelType.public_thread)
         await ctx.respond('created new interview thread')
         await self.thread.send(f'Commencing {role} interview, say hi!')    
+
+    @discord.slash_command(description = "generate summary for script", name = "summarize")
+    async def summarize(self, ctx, file: discord.Attachment) :
+        file_bytes = await file.read()
+        
+        await ctx.respond('processing file')
+        thread = await ctx.channel.create_thread(name="summarizing file", type=ChannelType.public_thread)
+
+        summary_csv = await csv_data_from_pdf_bytes(file_bytes, thread)
+        f = discord.File(summary_csv, filename='best_name_ever.csv')
+
+        await thread.send(file = f)
+
+
 
     @discord.Cog.listener()
     async def on_message(self, message):

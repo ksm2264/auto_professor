@@ -1,0 +1,146 @@
+{
+  "scenes": [
+    {
+      "scene": {
+        "characters": [],
+        "summary": "Empty scene"
+      },
+      "pages": [
+        4
+      ]
+    },
+    {
+      "scene": {
+        "characters": [
+          "E4/E?"
+        ],
+        "summary": "Boy sees sword"
+      },
+      "pages": [
+        4
+      ]
+    },
+    {
+      "scene": {
+        "characters": [
+          "E4/E?",
+          "Ensemble"
+        ],
+        "summary": "Wall collapses"
+      },
+      "pages": [
+        4,
+        5
+      ]
+    },
+    {
+      "scene": {
+        "characters": [
+          "E3",
+          "E5",
+          "E1",
+          "E2",
+          "E6"
+        ],
+        "summary": "Ithaca war discussion"
+      },
+      "pages": [
+        5,
+        6
+      ]
+    },
+    {
+      "scene": {
+        "characters": [
+          "E3",
+          "E5",
+          "E1",
+          "E2",
+          "E6",
+          "E4"
+        ],
+        "summary": "mural debate"
+      },
+      "pages": [
+        6,
+        7
+      ]
+    },
+    {
+      "scene": {
+        "characters": [
+          "E3",
+          "E5",
+          "E1",
+          "E2",
+          "E6"
+        ],
+        "summary": "telling history"
+      },
+      "pages": [
+        7
+      ]
+    },
+    {
+      "scene": {
+        "characters": [
+          "E1",
+          "E2"
+        ],
+        "summary": "earth collapsed"
+      },
+      "pages": [
+        7
+      ]
+    },
+    {
+      "scene": {
+        "characters": [
+          "E1",
+          "E2",
+          "E3",
+          "E5",
+          "E6"
+        ],
+        "summary": "ensemble erupting"
+      },
+      "pages": [
+        7,
+        8
+      ]
+    },
+    {
+      "scene": {
+        "characters": [
+          "E1",
+          "E2",
+          "E3",
+          "E5",
+          "E6",
+          "Odysseus"
+        ],
+        "summary": "Odysseus enters"
+      },
+      "pages": [
+        8
+      ]
+    },
+    {
+      "scene": {
+        "characters": [
+          "E1",
+          "E2",
+          "E3",
+          "E5",
+          "E6",
+          "Odysseus",
+          "Athena"
+        ],
+        "summary": "Athena enters"
+      },
+      "pages": [
+        8
+      ]
+    }
+  ]
+}
